@@ -3,9 +3,10 @@
     .version = "5.6.0-dev",
     .fingerprint = 0xc4cfa8c610114f28,
     .dependencies = .{
+        // Using labelle-toolkit fork with GetGLFWWindow() function
         .raylib = .{
-            .url = "git+https://github.com/raysan5/raylib#8ada37d9671682f420a2be1f1afd4b06173b81ad",
-            .hash = "raylib-5.6.0-dev-whq8uCg2ywTzCiX3VEP9RuCMXR6_VnDBmkj8GjL_p5QN",
+            .url = "git+https://github.com/labelle-toolkit/raylib#3f5fcf381c84dae5a7827ed8cdcf5eced42fbb2d",
+            .hash = "raylib-5.6.0-dev-whq8uF2cDAV99KX6upj8NfVqy7pb79E770-JGUegqAEp",
         },
         .raygui = .{
             .url = "git+https://github.com/raysan5/raygui#9cdfec460b43a17264af3c181c46f62bf107ac17",

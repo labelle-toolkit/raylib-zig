@@ -2737,6 +2737,13 @@ pub fn getWindowHandle() *anyopaque {
     return cdef.GetWindowHandle();
 }
 
+/// Get GLFW window handle (GLFWwindow pointer)
+/// NOTE: This returns the internal GLFW window handle for integration with
+/// libraries that need direct GLFW access (e.g., Dear ImGui with GLFW backend)
+pub fn getGLFWWindow() *anyopaque {
+    return cdef.GetGLFWWindow();
+}
+
 /// Get current screen width
 pub fn getScreenWidth() i32 {
     return @as(i32, cdef.GetScreenWidth());

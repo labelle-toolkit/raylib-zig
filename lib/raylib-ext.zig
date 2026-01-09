@@ -31,6 +31,7 @@ pub extern "c" fn SetWindowSize(width: c_int, height: c_int) void;
 pub extern "c" fn SetWindowOpacity(opacity: f32) void;
 pub extern "c" fn SetWindowFocused() void;
 pub extern "c" fn GetWindowHandle() *anyopaque;
+pub extern "c" fn GetGLFWWindow() *anyopaque;
 pub extern "c" fn GetScreenWidth() c_int;
 pub extern "c" fn GetScreenHeight() c_int;
 pub extern "c" fn GetRenderWidth() c_int;
